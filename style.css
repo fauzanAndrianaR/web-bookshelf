@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF2D7;
+}
+
+header {
+    background: #6F4E37;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #333;
+}
+.judul-box {
+    margin-top: 0;
+    background-color: #c78655;
+    border-radius: 8px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+input {
+    background-color: #FED8B1;
+}
+
+.input-section {
+    background: #ECB176;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 5px 20px 20px 20px ;
+    border-radius: 8px;
+}
+
+
+
+.input-section .input label {
+    display: block;
+    font-weight: bold;
+}
+
+.input-section .input input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-inline {
+    display: flex;
+    align-items: center;
+}
+
+.input-inline input {
+    margin-right: 10px;
+}
+
+.input-section button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.input-section button:hover {
+    background: #555;
+}
+
+.search-section {
+    background: #ECB176;
+    margin: 0px 200px 20px 200px;
+    padding: 5px 70px 10px 70px;
+    border-radius: 8px;
+}
+
+.search-section form {
+    display: flex;
+    align-items: center;
+}
+
+.search-section input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.search-section button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-section button:hover {
+    background: #555;
+}
+
+.book-sections-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-section {
+    background: #ECB176;
+    margin-bottom: 20px;
+    padding: 0px 20px 20px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin-right: 10px; 
+}
+
+.book-section:last-child {
+    margin-right: 0; 
+}
+
+.book-list {
+    list-style: none;
+    padding: 0;
+}
+
+.book-list .book-item {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.book-list .book-item h3 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.book-list .book-item p {
+    margin: 0;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fauzan Andriana R</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Fauzan - Bookshelf</h1>
+    </header>
+    <main>
+        <section class="input-section">
+                <div class="judul-box">
+                    <h2>Masukan Data Buku</h2>
+                </div>
+                <div>
+                    <form id="input-book">
+                        <div class="input">
+                            <label for="Book-title"> Judul </label>
+                            <input id="Book-title" type="text" required>
+                        </div>
+                        <div class="input">
+                            <label for="Book-author"> Penulis </label>
+                            <input id="Book-author" type="text" required>
+                        </div>
+                        <div class="input">
+                            <label for="Book-year"> Tahun </label>
+                            <input id="Book-year" type="number" required>
+                        </div>
+                        <div class="input-inline">
+                            <input id="inputBookIsComplete" type="checkbox">
+                            <label for="inputBookIsComplete">Selesai dibaca</label>
+                        </div>
+                        <button id="bookSubmit" type="submit">Kirim</button>
+                    </form>
+                </div>
+        </section>
+
+        <section class="search-section">
+            <div class="judul-box">
+                <h2>Cari Buku</h2>
+            </div>
+            <div class="isi-box">
+                <form id="searchBook">
+                    <input id="searchBookTitle" type="text">
+                    <button id="searchSubmit" type="submit">Cari</button>
+                </form>
+            </div>
+        </section>
+
+        <div class="book-sections-container">
+            <section class="book-section">
+                <div class="judul-box">
+                    <h2>Belum selesai dibaca</h2>
+                </div>
+                <div class="isi-box">
+                    <div id="incompleteBookshelfList" class="book-list"></div>
+                </div>
+            </section>
+
+            <section class="book-section">
+                <div class="judul-box">
+                    <h2>Selesai dibaca</h2>
+                </div>
+                <div class="isi-box">
+                    <div id="CompleteBookshelfList" class="book-list"></div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
